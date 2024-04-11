@@ -6,7 +6,7 @@ let mytoken= ['auto'];//快速订阅访问入口, 留空则不启动快速订阅
 // 设置优选地址，不带端口号默认443，TLS订阅生成
 let addresses = [
 	'icook.tw:2053#官方优选域名',
-	'cloudflare.cfgo.cc#优选官方线路',
+	//'cloudflare.cfgo.cc#优选官方线路',
 ];
 
 // 设置优选地址api接口
@@ -17,9 +17,58 @@ let addressesapi = [
 
 // 设置优选地址，不带端口号默认80，noTLS订阅生成
 let addressesnotls = [
-	'www.visa.com.sg#官方优选域名',
-	'www.wto.org:8080#官方优选域名',
-	'www.who.int:8880#官方优选域名',
+	//'www.visa.com.sg#官方优选域名',
+	//'www.wto.org:8080#官方优选域名',
+	//'www.who.int:8880#官方优选域名',
+	'time.cloudflare.com:80#域名优选',
+'shopify.com:80#域名优选',
+'time.is:80#域名优选',
+'icook.hk:80#域名优选',
+'icook.tw:80#域名优选',
+'ip.sb:80#域名优选',
+'japan.com:80#域名优选',
+'malaysia.com:80#域名优选',
+'russia.com:80#域名优选',
+'singapore.com:80#域名优选',
+'skk.moe:80#域名优选',
+'www.visa.com:80#域名优选',
+'www.visa.com.sg:80#域名优选',
+'www.visa.com.hk:80#域名优选',
+'www.visa.com.tw:80#域名优选',
+'www.visa.co.jp:80#域名优选',
+'www.visakorea.com:80#域名优选',
+'www.gco.gov.qa:80#域名优选',
+'www.gov.se:80#域名优选',
+'www.gov.ua:80#域名优选',
+'www.digitalocean.com:80#域名优选',
+'www.csgo.com:80#域名优选',
+'www.shopify.com:80#域名优选',
+'www.whoer.net:80#域名优选',
+'www.whatismyip.com:80#域名优选',
+'www.ipget.net:80#域名优选',
+'www.hugedomains.com:80#域名优选',
+'www.udacity.com:80#域名优选',
+'www.4chan.org:80#域名优选',
+'www.okcupid.com:80#域名优选',
+'www.glassdoor.com:80#域名优选',
+'www.udemy.com:80#域名优选',
+'www.baipiao.eu.org:80#域名优选',
+'cdn.anycast.eu.org:80#域名优选',
+'cdn-all.xn--b6gac.eu.org:80#域名优选',
+'cdn-b100.xn--b6gac.eu.org:80#域名优选',
+'xn--b6gac.eu.org:80#域名优选',
+'edgetunnel.anycast.eu.org:80#域名优选',
+'alejandracaiccedo.com:80#域名优选',
+'nc.gocada.co:80#域名优选',
+'log.bpminecraft.com:80#域名优选',
+'www.boba88slot.com:80#域名优选',
+'gur.gov.ua:80#域名优选',
+'www.zsu.gov.ua:80#域名优选',
+'www.iakeys.comwww.iakeys.com:80#域名优选',
+'edtunnel-dgp.pages.dev:80#域名优选',
+'www.d-555.com:80#域名优选',
+'fbi.gov:80#域名优选',
+
 ];
 
 // 设置优选noTLS地址api接口
